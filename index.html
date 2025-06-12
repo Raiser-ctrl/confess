@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>would you be my gf?</title>
+    <link rel="icon" href="https://i.ibb.co/hXZsYxZ/heart.png" />
+  </head>
+  <body>
+    <div class="question-container container">
+      <!-- Ganti dari Tenor ke GIF lokal -->
+      <img
+        src="gif/rose.gif"
+        alt="Bubu Shy"
+        style="width: 100%; max-width: 320px"
+      />
+
+      <h2 class="question">would you be my girlfriend?</h2>
+      <div class="button-container">
+        <button class="yes-btn btn js-yes-btn">i'm yours</button>
+        <button class="no-btn btn js-no-btn">No!</button>
+      </div>
+    </div>
+
+    <div class="result-container container">
+      <!-- Tambahan GIF di atas -->
+      <img src="gif/cubit.gif" alt="Love Gif" class="gif-above" />
+
+      <!-- Teks utama -->
+      <h2 id="typeText"></h2>
+
+      <!-- Tombol "Awww 🥺" di tengah bawah -->
+      <button class="aww-button">Awww 🥺</button>
+    </div>
+
+    <!-- ❤️ Heart Loading -->
+    <div class="cssload-main">
+      <div class="cssload-heart">
+        <span class="cssload-heartL"></span>
+        <span class="cssload-heartR"></span>
+        <span class="cssload-square"></span>
+      </div>
+      <div class="cssload-shadow"></div>
+    </div>
+
+    <audio id="loveAudio" src="audio/lagu.mp3" preload="auto"></audio>
+    <script src="https://unpkg.com/typeit@8.8.4/dist/index.umd.js"></script>
+    <script src="Script.js"></script>
+  </body>
+</html>
