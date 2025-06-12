@@ -94,8 +94,7 @@ setTimeout(() => {
 const awwBtn = document.querySelector(".aww-button");
 
 awwBtn.addEventListener("click", () => {
-  const phoneNumber = "6281234567890";
   const message = "Awww 🥺 I'm yours now!";
-  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 });
